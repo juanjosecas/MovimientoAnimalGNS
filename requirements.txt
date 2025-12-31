@@ -1,0 +1,28 @@
+# Core scientific computing libraries
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+scipy>=1.7.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Video processing
+opencv-python>=4.5.0
+
+# Configuration files
+pyyaml>=5.4.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# DeepLabCut for animal pose estimation
+# Note: DeepLabCut has many dependencies and should be installed separately
+# Follow: https://github.com/DeepLabCut/DeepLabCut
+# deeplabcut
+
+# SLEAP for animal tracking (alternative to DeepLabCut)
+# Note: SLEAP installation varies by platform
+# Follow: https://sleap.ai/installation.html
+# sleap
