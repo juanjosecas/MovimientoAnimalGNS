@@ -109,8 +109,8 @@ Este es el notebook principal que realiza el análisis completo de videos con De
 
 **Outputs generados:**
 - Video recortado: `experiments/A-7_crop.mp4`
-- Archivo CSV con predicciones: `experiments/A-7_crop[...].csv`
-- Video etiquetado: `experiments/A-7_crop[...]_labeled.mp4`
+- Archivo CSV con predicciones: `experiments/A-7_crop<modelo>DLC_<scorer>.csv` (incluye el nombre del modelo y scorer)
+- Video etiquetado: `experiments/A-7_crop<modelo>DLC_<scorer>_labeled.mp4`
 
 ### 2. Otros Notebooks
 
