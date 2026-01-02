@@ -66,10 +66,10 @@ python -c "import deeplabcut as dlc; print('DeepLabCut instalado correctamente:'
 
 ```
 MovimientoAnimalGNS/
-├── Inferencia_en_SLEAP.ipynb          # Notebook principal para análisis de videos
-├── Analisis de Resultados SLEAP.ipynb  # Análisis de resultados (en desarrollo)
-├── Creacion de modelo de ML.ipynb      # Creación de modelos ML (en desarrollo)
-├── RandomForest.ipynb                  # Modelo Random Forest (en desarrollo)
+├── Inferencia_en_SLEAP.ipynb          # Análisis de videos
+├── Analisis de Resultados SLEAP.ipynb  # Análisis de resultados
+├── Creacion de modelo de ML.ipynb      # Creación de modelos ML
+├── RandomForest.ipynb                  # Modelo Random Forest
 └── README.md                           # Este archivo
 ```
 
@@ -77,7 +77,7 @@ MovimientoAnimalGNS/
 
 ### 1. Inferencia_en_SLEAP.ipynb
 
-Este es el notebook principal que realiza el análisis completo de videos con DeepLabCut.
+Notebook que realiza el análisis completo de videos con DeepLabCut.
 
 **Pasos para usar:**
 
@@ -112,11 +112,11 @@ Este es el notebook principal que realiza el análisis completo de videos con De
 - Archivo CSV con predicciones: `experiments/A-7_cropDLC_resnet50_...shuffle1_trainingsetindex0.csv`
 - Video etiquetado: `experiments/A-7_cropDLC_resnet50_...shuffle1_trainingsetindex0_labeled.mp4`
 
-*Nota: Los nombres exactos dependen del modelo y configuración de DeepLabCut utilizada*
+Los nombres exactos dependen del modelo y configuración de DeepLabCut utilizada.
 
 ### 2. Otros Notebooks
 
-Los siguientes notebooks están en desarrollo:
+Notebooks adicionales:
 - `Analisis de Resultados SLEAP.ipynb`: Análisis posterior de los resultados
 - `Creacion de modelo de ML.ipynb`: Creación de modelos de machine learning
 - `RandomForest.ipynb`: Implementación de Random Forest
@@ -160,7 +160,7 @@ Antes de ejecutar el notebook principal, asegúrate de tener:
 
 ## Contribuciones
 
-Este proyecto está en desarrollo activo. Los notebooks adicionales se completarán próximamente.
+Este proyecto es parte del trabajo de investigación en el Grupo de Neurociencias y Sistemas (GNS).
 
 ## Licencia
 
