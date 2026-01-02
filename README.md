@@ -1,4 +1,4 @@
-# MovimientoAnimalGNS
+#  GNS: Movimiento Animal
 
 Este proyecto utiliza DeepLabCut para analizar el movimiento de animales en videos experimentales. El flujo de trabajo incluye análisis de videos, filtrado de predicciones y creación de videos etiquetados.
 
